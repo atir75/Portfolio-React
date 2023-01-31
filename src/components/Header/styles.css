@@ -1,0 +1,19 @@
+.Header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 17px;
+    height: 100%;
+    background-color: #22001E;
+    padding: 20px;
+}
+
+.HeaderIcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 30vh;
+    width: 100%;
+    margin-top: 236px;
+}
