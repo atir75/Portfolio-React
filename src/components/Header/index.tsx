@@ -7,10 +7,10 @@ export function Header() {
       <header className="Header">
         <div className="HeaderIcon">
             <a href="#home" ><House size={32}/></a>
-            <a><User size={32} /></a>
-            <a><Eye size={32} /></a>
-            <a><Briefcase size={32} /></a>
-            <a><Envelope size={32} /></a>
+            <a href="#about"><User size={32} /></a>
+            <a href="#view"><Eye size={32} /></a>
+            <a href="#experience"><Briefcase size={32} /></a>
+            <a href="#mail"><Envelope size={32} /></a>
         </div>
       </header>
     </div>
