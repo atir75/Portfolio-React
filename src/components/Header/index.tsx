@@ -6,7 +6,7 @@ export function Header() {
     <div>
       <header className="Header">
         <div className="HeaderIcon">
-            <a><House size={32}/></a>
+            <a href="#home"><House size={32}/></a>
             <a><User size={32} /></a>
             <a><Eye size={32} /></a>
             <a><Briefcase size={32} /></a>
