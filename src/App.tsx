@@ -1,12 +1,11 @@
 
 import './App.css'
 import { Header } from './components/Header'
+import { Text } from './components/Text'
 
-function App() {
+export function App() {
 
   return (
-    <><Header></Header></>
+    <><Header></Header><Text></Text></>
   )
 }
-
-export default App
