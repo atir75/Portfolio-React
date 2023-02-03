@@ -1,18 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
 
 
 h1{
     font-family: 'Anonymous Pro', monospace;
-    background-color: red;
     width: 40vh;
     height: 32vh;
     color: white;
     margin-left: 120px;
     margin-top: 30vh;
     font-size: 40px;
+    line-height: 1;
+    font-weight: 400;
 }
 
 p{
     
     line-height: 0;
+}
+.colorName{
+    color: #F2B7C6;
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 40px;
+    font-weight: 400;
 }
