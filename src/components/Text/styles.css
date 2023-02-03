@@ -4,7 +4,7 @@
 
 h1{
     font-family: 'Anonymous Pro', monospace;
-    width: 300px;
+    width: 270px;
     height: 21.5vh;
     color: white;
     margin-left: 120px;
@@ -14,7 +14,6 @@ h1{
     line-height: 0.9;
     font-weight: 400;
     display: block;
-    padding: 2px 0 0 0;
 }
 
 p{
