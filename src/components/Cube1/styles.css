@@ -1,12 +1,13 @@
 .cube {
     width: 200px;
     height: 200px;
-    background-color: red;
+    margin-left: 130vh;
+    margin-top: -50vh;
   
     animation: rotate 10s infinite alternate;
     transform-style: preserve-3d;
   }
-  
+
   .face {
     background: linear-gradient(45deg, #4fd1c522, #4fd1c5cc);
     border: 2px solid #4fd1c5;
