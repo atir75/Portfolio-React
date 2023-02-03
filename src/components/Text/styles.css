@@ -4,21 +4,23 @@
 
 h1{
     font-family: 'Anonymous Pro', monospace;
-    width: 40vh;
-    height: 32vh;
+    width: 300px;
+    height: 24vh;
     color: white;
     margin-left: 120px;
     margin-top: 30vh;
+    margin-bottom: 0;
     font-size: 40px;
     line-height: 0.9;
     font-weight: 400;
     display: block;
+    padding: 2px 0 0 0;
 }
 
 p{
     
     line-height: 0;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     margin-top: 30px;
 }
 .colorName{
@@ -26,4 +28,16 @@ p{
     font-family: 'Covered By Your Grace', cursive;
     font-size: 40px;
     font-weight: 400;
+}
+
+h2{
+    font-family: 'Anonymous Pro', monospace;
+    width: 20vh;
+    height: 3vh;
+    color: white;
+    margin-left: 120px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 0;
+    line-height: 0.1;
 }
