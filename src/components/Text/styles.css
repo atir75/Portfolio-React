@@ -10,13 +10,16 @@ h1{
     margin-left: 120px;
     margin-top: 30vh;
     font-size: 40px;
-    line-height: 1;
+    line-height: 0.9;
     font-weight: 400;
+    display: block;
 }
 
 p{
     
     line-height: 0;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 .colorName{
     color: #F2B7C6;
