@@ -1,70 +1,67 @@
 .cube2 {
-    width: 200px;
-    height: 200px;
-    margin-left: 130vh;
-    margin-top: -50vh;
-  
-    animation: rotate 14s infinite alternate;
-    transform-style: preserve-3d;
+  width: 200px;
+  height: 200px;
+  margin-left: 130vh;
+  margin-top: -50vh;
+
+  animation: rotate 14s infinite alternate;
+  transform-style: preserve-3d;
+}
+
+.face {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 50px;
+  font-weight: bold;
+  color: black;
+
+  width: 200px;
+  height: 200px;
+  position: absolute;
+}
+
+.face--front {
+  transform: translateZ(100px);
+}
+
+.face--right {
+  transform: rotateY(90deg) translateZ(100px);
+}
+
+.face--back {
+  transform: rotateY(180deg) translateZ(100px);
+}
+
+.face--left {
+  transform: rotateY(-90deg) translateZ(100px);
+}
+
+.face--top {
+  transform: rotateX(90deg) translateZ(100px);
+}
+
+.face--bottom {
+  transform: rotateX(-90deg) translateZ(100px);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateX(-20deg) rotateY(-10deg);
   }
 
-  .face {
-    background: black;
-    opacity: 0.6;
-    border: 1px solid white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  
-    font-size: 50px;
-    font-weight: bold;
-    color: black;
-  
-    width: 200px;
-    height: 200px;
-    position: absolute;
-  }
-  
-  .face--front {
-    transform: translateZ(100px);
-  }
-  
-  .face--right {
-    transform: rotateY(90deg) translateZ(100px);
-  }
-  
-  .face--back {
-    transform: rotateY(180deg) translateZ(100px);
-  }
-  
-  .face--left {
-    transform: rotateY(-90deg) translateZ(100px);
-  }
-  
-  .face--top {
-    transform: rotateX(90deg) translateZ(100px);
-  }
-  
-  .face--bottom {
-    transform: rotateX(-90deg) translateZ(100px);
-  }
-  
-  @keyframes rotate {
-    from {
-      transform: rotateX(-20deg) rotateY(-10deg);
-    }
-  
-    50% {
-      transform: rotateX(20deg) rotateY(320deg);
-    }
-  
-    to {
-      transform: rotateX(-20deg) rotateY(-20deg);
-    }
+  50% {
+    transform: rotateX(20deg) rotateY(320deg);
   }
 
+  to {
+    transform: rotateX(-20deg) rotateY(-20deg);
+  }
+}
 
-
-.csharp{
-  height: 100px;
+.csharp {
+  height: 150px;
 }
