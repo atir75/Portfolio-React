@@ -3,7 +3,6 @@
     height: 200px;
     margin-left: 85vh;
     margin-top: 20vh;
-    background-color: red;
   
     animation: rotate 10s infinite alternate;
     transform-style: preserve-3d;
@@ -27,6 +26,7 @@
   
   .face--front2 {
     transform: translateZ(100px);
+    /* background-image: url("../Cube1/csharp.jpg"); */
   }
   
   .face--right2 {
