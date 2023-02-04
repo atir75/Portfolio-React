@@ -9,8 +9,8 @@
 }
 
 .face {
-  background: rgba(0, 0, 0, 0.7);
-  border: 1px solid white;
+  background: rgba(0, 0, 0, 0.8);
+  border: 2px solid rgb(106, 105, 105);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -56,6 +56,10 @@
   50% {
     transform: rotateX(20deg) rotateY(320deg);
   }
+  
+  80% {
+    transform: rotateX(20deg) rotateY(320deg);
+  }
 
   to {
     transform: rotateX(-20deg) rotateY(-20deg);
@@ -63,5 +67,21 @@
 }
 
 .csharp {
-  height: 150px;
+  height: 180px;
+}
+
+.java{
+  height: 180px;
+}
+
+.python{
+  height: 180px;
+}
+
+.nodejs{
+  height: 180px;
+}
+
+.git{
+  height: 180px;
 }
