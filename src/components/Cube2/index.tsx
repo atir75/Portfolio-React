@@ -4,7 +4,7 @@ import "../Cube2/styles.css";
 export function Cube2() {
     return(
         <div className="Cube2">
-            <div className="face2 face--front2">Front</div>
+            <div className="face2 face--front2"><img src="../assets/img/csharp.jpg" alt="" /></div>
             <div className="face2 face--right2">right</div>
             <div className="face2 face--back2">Back</div>
             <div className="face2 face--left2">Left</div>

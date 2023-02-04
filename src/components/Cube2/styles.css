@@ -3,6 +3,7 @@
     height: 200px;
     margin-left: 85vh;
     margin-top: 20vh;
+    background-color: red;
   
     animation: rotate 10s infinite alternate;
     transform-style: preserve-3d;
@@ -52,9 +53,12 @@
     from {
       transform: rotateX(-20deg) rotateY(-10deg);
     }
+    25% {
+      transform: rotateX(10deg) rotateY(150deg);
+    }
   
     50% {
-      transform: rotateX(20deg) rotateY(320deg);
+      transform: rotateX(40deg) rotateY(300deg);
     }
   
     to {
