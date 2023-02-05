@@ -9,8 +9,8 @@
   }
 
   .face2 {
-    background: linear-gradient(45deg, #4fd1c522, black);
-    border: 2px solid #4fd1c5;
+    background: rgba(0, 0, 0, 1);
+    border: 2px solid rgb(106, 105, 105);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@
     transform: rotateY(90deg) translateZ(100px);
   }
   
-  .face--back2 {
+  .face--back2 { 
     transform: rotateY(180deg) translateZ(100px);
   }
   
@@ -65,3 +65,7 @@
       transform: rotateX(-20deg) rotateY(-20deg);
     }
   }
+
+.react{
+  height: 180px;
+}

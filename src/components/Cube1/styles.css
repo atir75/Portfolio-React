@@ -9,7 +9,7 @@
 }
 
 .face {
-  background: rgba(0, 0, 0, 0.8);
+  background: rgba(0, 0, 0, 1);
   border: 2px solid rgb(106, 105, 105);
   display: flex;
   align-items: center;
