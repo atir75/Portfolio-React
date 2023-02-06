@@ -10,7 +10,7 @@
 
   .face2 {
     background: #501556;
-  border: 2px solid rgb(90, 84, 84);
+  border: 3px solid rgb(90, 84, 84);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -68,4 +68,20 @@
 
 .react{
   height: 180px;
+}
+
+.js{
+  height: 180px;
+}
+
+.angular{
+  height: 180px;
+}
+
+.css{
+  height: 180px;
+}
+
+.sass{
+  height: 150px;
 }
