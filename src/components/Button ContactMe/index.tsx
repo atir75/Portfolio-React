@@ -2,6 +2,6 @@ import "../Button ContactMe/styles.css";
 
 export function BtnContactMe() {
     return (
-        <button>aaaaaaaaa</button>
+        <button className="btnContact">aaaaaaaaa</button>
     )
 }
