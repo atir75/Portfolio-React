@@ -33,7 +33,12 @@ export function Cube2() {
                     src="https://mateusmedeiros.com/assets/img/posts/logo-sass.png">
                 </img>
             </div>
-            <div className="face2 face--bottom2">Bottom</div>
+            <div className="face2 face--bottom2">
+            <img 
+                className="sass"
+                    src="https://mateusmedeiros.com/assets/img/posts/logo-sass.png">
+                </img>
+            </div>
         </div>
     )
 }
