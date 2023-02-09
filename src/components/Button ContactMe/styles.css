@@ -3,8 +3,8 @@
     border: none;
     border-radius: 10px;
     height: 30px;
-    margin-left: 13vh;
-    margin-top: -40vh;
-    margin-bottom: -20px;
-    width: 130px;
+    position: relative;
+    bottom: 160px;
+    left: 118px;
+    width: 140px;
 }
