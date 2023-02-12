@@ -1,5 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+
+.title{
+    font-family: 'Anonymous Pro', monospace;
+}
+
 .text1{
-    background-color: red;
-    width: 350px;
+    width: 400px;
     height: 100px;
+    font-family: 'Anonymous Pro', monospace;
+    margin-left: 140px;
+    margin-top: -100px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.lineABT{
+    line-height: 0;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+.text2{
+    width: 300px;
+    height: 80px;
+    font-family: 'Anonymous Pro', monospace;
+    margin-left: 140px;
+    margin-top: -5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.lineABT2{
+    line-height: 0;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
