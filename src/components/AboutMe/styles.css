@@ -36,3 +36,14 @@
     margin-bottom: 15px;
     margin-top: 15px;
 }
+
+
+.text3{
+    width: 250px;
+    height: 80px;
+    font-family: 'Anonymous Pro', monospace;
+    margin-left: 140px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
