@@ -3,10 +3,10 @@
 .btnContact{
     background-color: #824368;
     border: none;
-    border-radius: 10px;
-    height: 30px;
+    border-radius: 0.8rem;
+    height: 1.9rem;
     position: relative;
-    bottom: 160px;
+    bottom: 12.3rem;
     left: 118px;
     width: 140px;
     font-family: 'Anonymous Pro', monospace;
