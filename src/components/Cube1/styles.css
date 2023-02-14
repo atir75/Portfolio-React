@@ -1,8 +1,8 @@
 .cube2 {
-  width: 200px;
-  height: 200px;
-  margin-left: 130vh;
-  margin-top: -50vh;
+  width: 12.6rem;
+  height: 12.6rem;
+  margin-left: 60rem;
+  margin-top: -20rem;
 
   animation: rotate 14s infinite alternate;
   transform-style: preserve-3d;
@@ -19,8 +19,8 @@
   font-weight: bold;
   color: black;
 
-  width: 200px;
-  height: 200px;
+  width: 12.4rem;
+  height: 12.4rem;
   position: absolute;
 }
 
