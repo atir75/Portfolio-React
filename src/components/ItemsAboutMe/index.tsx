@@ -1,10 +1,10 @@
 import "../ItemsAboutMe/styles.css"
+import mew from "../../../assets/img/mew.png"
 
 export function Items() {
     return (
         <>
-        <h1>aaaasaaaaaaaaaaaaaaaaaaaa</h1>
-        <img src="../assets/img/mew"></img>
+        <img src={ mew }></img>
         </>
     )
 }

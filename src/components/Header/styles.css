@@ -12,7 +12,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    gap: 1rem;
+    justify-content: center;
     height: 30vh;
     width: 100%;
     margin-top: 236px;
