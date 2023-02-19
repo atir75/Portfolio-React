@@ -24,10 +24,10 @@
 
 .text2{
     width: 28rem;
-    height: 80px;
+    height: 4.5rem;
     font-family: 'Anonymous Pro', monospace;
     margin-left: 140px;
-    margin-top: 4px;
+    margin-top: 0.3rem;
     font-size: 20px;
     font-weight: 400;
 }
@@ -41,11 +41,11 @@
 
 
 .text3{
-    width: 250px;
-    height: 80px;
+    width: 20rem;
+    height: 4.5rem;
     font-family: 'Anonymous Pro', monospace;
-    margin-left: 140px;
-    margin-top: 28px;
+    margin-left: 9rem;
+    margin-top: 1.7rem;
     font-size: 20px;
     font-weight: 400;
 }
