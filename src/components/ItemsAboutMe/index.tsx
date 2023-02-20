@@ -4,7 +4,9 @@ import mew from "../../../assets/img/mew.png"
 export function Items() {
     return (
         <>
-        <img src={ mew }></img>
+        <img
+            className="mew" src={ mew }>
+        </img>
         </>
     )
 }
