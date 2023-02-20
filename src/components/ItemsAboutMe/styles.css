@@ -4,5 +4,38 @@
     height: 10%;
     margin-left: 80rem;
     margin-bottom: 20rem;
-    margin-top: -25rem;
+    margin-top: -30rem;
+
+    animation-name: updown;
+    animation-duration: 3s; /* Duração da animação */
+    animation-iteration-count: infinite; /* Repete infinitamente */
+    animation-direction: alternate; 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes updown {
+    0% {
+      transform: translateY(0); /* Mantém o elemento na posição original */
+    }
+    50% {
+      transform: translateY(-50px); /* Move o elemento para cima */
+    }
+    100% {
+      transform: translateY(0); /* Retorna o elemento para a posição original */
+    }
+  }
