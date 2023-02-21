@@ -55,7 +55,29 @@
     margin-top: 0rem;
  
     animation-name: updown;
-    animation-duration: 3s; /* Duração da animação */
+    animation-duration: 1s; /* Duração da animação */
+    animation-iteration-count: infinite; /* Repete infinitamente */
+    animation-direction: alternate; 
+}
+
+.book{
+    width: 10%;
+    height: 10%;
+    margin-left: 35rem;
+    margin-top: -3rem;
+    animation-name: updown;
+    animation-duration: 2.5s; /* Duração da animação */
+    animation-iteration-count: infinite; /* Repete infinitamente */
+    animation-direction: alternate; 
+}
+
+.controle{
+    width: 10%;
+    height: 10%;
+    margin-left: -33rem;
+    animation-name: updown;
+    animation-name: updown;
+    animation-duration: 2s; /* Duração da animação */
     animation-iteration-count: infinite; /* Repete infinitamente */
     animation-direction: alternate; 
 }

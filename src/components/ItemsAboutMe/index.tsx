@@ -4,6 +4,8 @@ import puzzle1 from "../../../assets/img/puzzle1.png"
 import puzzle2 from "../../../assets/img/puzzle2.png"
 import controle2 from "../../../assets/img/controle2.png"
 import me from "../../../assets/img/me.png"
+import book from "../../../assets/img/book.png"
+import controle from "../../../assets/img/controle.png"
 
 export function Items() {
     return (
@@ -22,6 +24,12 @@ export function Items() {
             </img>
             <img
                 className="me" src={ me }>
+            </img>
+            <img
+                className="book" src={ book }>
+            </img>
+            <img
+                className="controle" src={ controle }>
             </img>
         </>
     )
