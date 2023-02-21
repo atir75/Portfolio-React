@@ -16,19 +16,49 @@
     width: 10%;
     height: 10%;
     margin-left: 60rem;
-    margin-bottom: 30rem;
+    margin-bottom: 22rem;
     margin-top: -90rem;
 
     animation-name: updown;
     animation-duration: 3s; /* Duração da animação */
     animation-iteration-count: infinite; /* Repete infinitamente */
     animation-direction: alternate; 
-
 }
 
+.controle2{
+    width: 10%;
+    height: 10%;
+    margin-left: 50rem;
+    margin-bottom: 17rem;
+    margin-top: -90rem;
 
+    animation-name: updown;
+    animation-duration: 3s; /* Duração da animação */
+    animation-iteration-count: infinite; /* Repete infinitamente */
+    animation-direction: alternate; 
+}
 
+.me{
+  width: 24%;
+    height: 20%;
+    margin-left: 65rem;
+    margin-bottom: 10rem;
+    margin-top: -90rem;
+    animation-name: updown;
+}
 
+.puzzle2{
+    width: 10%;
+    height: 10%;
+    margin-left: -10rem;
+    margin-bottom: 1rem;
+    margin-top: 0rem;
+ 
+    animation-name: updown;
+    animation-duration: 3s; /* Duração da animação */
+    animation-iteration-count: infinite; /* Repete infinitamente */
+    animation-direction: alternate; 
+}
 
 
 @keyframes updown {
