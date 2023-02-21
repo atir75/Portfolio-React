@@ -12,7 +12,7 @@ export function App() {
 
   return (
     <>
-      <Header />
+      <Header/>
       <Text/>
       <Cube1/>
       <Cube2/>
