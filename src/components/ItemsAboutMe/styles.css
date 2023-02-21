@@ -3,7 +3,7 @@
     width: 10%;
     height: 10%;
     margin-left: 80rem;
-    margin-bottom: 20rem;
+    margin-bottom: 21rem;
     margin-top: -30rem;
 
     animation-name: updown;
@@ -12,16 +12,19 @@
     animation-direction: alternate; 
 }
 
+.puzzle1{
+    width: 10%;
+    height: 10%;
+    margin-left: 60rem;
+    margin-bottom: 30rem;
+    margin-top: -90rem;
 
+    animation-name: updown;
+    animation-duration: 3s; /* Duração da animação */
+    animation-iteration-count: infinite; /* Repete infinitamente */
+    animation-direction: alternate; 
 
-
-
-
-
-
-
-
-
+}
 
 
 
