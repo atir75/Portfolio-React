@@ -10,25 +10,26 @@ import controle from "../../../assets/img/controle.png"
 export function Items() {
     return (
         <>
-            <img
+
+            <img draggable = { false } 
                 className="mew" src={ mew }>
             </img>
-            <img
+            <img draggable = { false } 
                 className="puzzle1" src={ puzzle1 }>
             </img>
-            <img
+            <img draggable = { false } 
                 className="controle2" src={ controle2 }>
             </img>
-            <img
+            <img draggable = { false } 
                 className="puzzle2" src={ puzzle2 }>
             </img>
-            <img
+            <img draggable = { false } 
                 className="me" src={ me }>
             </img>
-            <img
+            <img draggable = { false } 
                 className="book" src={ book }>
             </img>
-            <img
+            <img draggable = { false } 
                 className="controle" src={ controle }>
             </img>
         </>
