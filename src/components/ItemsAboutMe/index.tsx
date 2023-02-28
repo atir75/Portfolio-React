@@ -6,6 +6,7 @@ import controle2 from "../../../assets/img/controle2.png"
 import me from "../../../assets/img/me.png"
 import book from "../../../assets/img/book.png"
 import controle from "../../../assets/img/controle.png"
+import NamePokemon from "../../../assets/img/NamePokemon.png"
 
 export function Items() {
     return (
@@ -31,6 +32,9 @@ export function Items() {
             </img>
             <img draggable = { false } 
                 className="controle" src={ controle }>
+            </img>
+            <img draggable = { false } 
+                className="NamePokemon" src={ NamePokemon }>
             </img>
         </>
     )

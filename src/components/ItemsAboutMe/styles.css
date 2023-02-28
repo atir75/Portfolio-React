@@ -82,6 +82,12 @@
     animation-direction: alternate; 
 }
 
+.NamePokemon{
+  width: 20%;
+  margin-left: 51rem;
+  margin-top: -3rem;
+}
+
 
 @keyframes updown {
     0% {
