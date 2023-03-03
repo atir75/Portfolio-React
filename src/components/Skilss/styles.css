@@ -1,10 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+
+.TextSkills{
+    width: 12%;
+    height: 10%;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+
 .progress-bar{
-    height: 0.5rem;
+    height: 0.8rem;
     width: 27rem;
-    background-color: red;
-    border: 2px solid red;
+    background-color: #D9D9D9;
+    border: 1px solid;
     border-radius: 25px;
-    margin-top: 20rem;
-    margin-left: 10rem;
-    margin-bottom: 20px;
+    margin-top: 9rem;
+    margin-left: 15rem;
+    margin-bottom: 29rem;
 }
