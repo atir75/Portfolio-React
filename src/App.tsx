@@ -7,6 +7,7 @@ import { Text } from './components/Text'
 import { BtnContactMe } from './components/Button ContactMe'
 import { AboutMe } from './components/AboutMe'
 import { Items } from './components/ItemsAboutMe'
+import { Skills } from './components/Skilss'
 
 export function App() {
 
@@ -19,6 +20,7 @@ export function App() {
       <BtnContactMe/>
       <AboutMe/>
       <Items/>
+      <Skills/>
     </>
   )
 }

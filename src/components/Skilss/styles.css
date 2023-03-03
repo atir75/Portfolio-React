@@ -1,0 +1,10 @@
+.progress-bar{
+    height: 0.5rem;
+    width: 27rem;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 25px;
+    margin-top: 20rem;
+    margin-left: 10rem;
+    margin-bottom: 20px;
+}
