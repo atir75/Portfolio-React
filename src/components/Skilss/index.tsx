@@ -9,7 +9,7 @@ export function Skills() {
             <h2 className="Backend">Back-end</h2>
             <div className="ProgressBars">
                 <div className="progress-bar progressAnimationStrike um" ></div> 
-                <div className="progress-bar"></div> 
+                <div className="progress-bar progressAnimationStrike dois"></div> 
                 <div className="progress-bar"></div> 
                 <div className="progress-bar"></div> 
                 <div className="progress-bar"></div> 

@@ -40,8 +40,10 @@
     
 }
 
+
+/* C# */
 .um{
-    height: 18px;
+    height: 10px;
     border-radius: 4px; 
     transition: 0.4s linear;  
     transition-property: width, background-color;  
@@ -52,13 +54,32 @@
         transparent 25%, transparent 50%, 
         rgb(127, 17, 252) 50%, rgb(127, 17, 252) 75%,
         transparent 75%, transparent); 
-  animation: progressAnimationStrike 6s; 
+  animation: progressAnimationStrike1 4s; 
 }
-
-
-@keyframes progressAnimationStrike {
+@keyframes progressAnimationStrike1 {
     from { width: 0 }
     to   { width: 18% }
+}
+
+/* NodeJS */
+
+.dois{
+    height: 10px;
+    border-radius: 4px; 
+    transition: 0.4s linear;  
+    transition-property: width, background-color;  
+    background-color: #934c94; 
+    width: 4%; 
+    background-image: linear-gradient(
+        45deg, rgb(127, 17, 252) 25%, 
+        transparent 25%, transparent 50%, 
+        rgb(127, 17, 252) 50%, rgb(127, 17, 252) 75%,
+        transparent 75%, transparent); 
+  animation: progressAnimationStrike2 6s; 
+}
+@keyframes progressAnimationStrike2 {
+    from { width: 0 }
+    to   { width: 4% }
 }
 /* 
 .progress-barNJS{
