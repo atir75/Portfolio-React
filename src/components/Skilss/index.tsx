@@ -14,7 +14,9 @@ export function Skills() {
                 <div className="progress-bar progressAnimationStrike two">
                     <h2 className="second">NodeJs</h2>
                 </div> 
-                <div className="progress-bar progressAnimationStrike three"></div> 
+                <div className="progress-bar progressAnimationStrike three">
+                    <h2 className="threee">Git</h2>
+                </div> 
                 <div className="progress-bar progressAnimationStrike four"></div> 
                 <div className="progress-bar progressAnimationStrike five"></div> 
             </div>
