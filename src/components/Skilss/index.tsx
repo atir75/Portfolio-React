@@ -18,9 +18,15 @@ export function Skills() {
                     <h2 className="threee">Git</h2>
                 </div> 
                 <div className="progress-bar progressAnimationStrike four">
-                <h2 className="fourP">Python</h2>
+                    <h2 className="fourP">Python</h2>
                 </div> 
-                <div className="progress-bar progressAnimationStrike five"></div> 
+                <div className="progress-bar progressAnimationStrike five">
+                    <h2 className="fiveJ">Java</h2>
+                </div> 
+            </div>
+            <h2 className="Frontend"> Front-end </h2>
+            <div className="ProgressBarsBack">
+                
             </div>
         </>
     )
