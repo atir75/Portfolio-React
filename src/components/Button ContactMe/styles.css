@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
 
 .btnContact{
-    background-color: #824368;
+    background-color: #F48FB1;
     border: none;
     border-radius: 0.8rem;
     height: 1.9rem;
     position: relative;
     bottom: 14rem;
-    left: 7.4rem;
+    left: 8.8rem;
     width: 8.3rem;
     font-family: 'Anonymous Pro', monospace;
     color: white;
