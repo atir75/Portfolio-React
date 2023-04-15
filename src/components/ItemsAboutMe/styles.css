@@ -1,102 +1,41 @@
-.mew{
-    background-color: red;
-    width: 10%;
-    height: 10%;
-    margin-left: 80rem;
-    margin-bottom: 21rem;
-    margin-top: -30rem;
-
-    animation-name: updown;
-    animation-duration: 3s; /* Duração da animação */
-    animation-iteration-count: infinite; /* Repete infinitamente */
-    animation-direction: alternate; 
-}
-
-.puzzle1{
-    width: 10%;
-    height: 10%;
-    margin-left: 60rem;
-    margin-bottom: 22rem;
-    margin-top: -90rem;
-
-    animation-name: updown;
-    animation-duration: 3s; /* Duração da animação */
-    animation-iteration-count: infinite; /* Repete infinitamente */
-    animation-direction: alternate; 
-}
-
-.controle2{
-    width: 10%;
-    height: 10%;
-    margin-left: 50rem;
-    margin-bottom: 17rem;
-    margin-top: -90rem;
-
-    animation-name: updown;
-    animation-duration: 3s; /* Duração da animação */
-    animation-iteration-count: infinite; /* Repete infinitamente */
-    animation-direction: alternate; 
-}
-
-.me{
-  width: 24%;
-    height: 20%;
-    margin-left: 65rem;
-    margin-bottom: 10rem;
-    margin-top: -90rem;
-    animation-name: updown;
-}
-
-.puzzle2{
-    width: 10%;
-    height: 10%;
-    margin-left: -10rem;
-    margin-bottom: 1rem;
-    margin-top: 0rem;
- 
-    animation-name: updown;
-    animation-duration: 1s; /* Duração da animação */
-    animation-iteration-count: infinite; /* Repete infinitamente */
-    animation-direction: alternate; 
-}
-
-.book{
-    width: 10%;
-    height: 10%;
-    margin-left: 35rem;
-    margin-top: -3rem;
-    animation-name: updown;
-    animation-duration: 2.5s; /* Duração da animação */
-    animation-iteration-count: infinite; /* Repete infinitamente */
-    animation-direction: alternate; 
-}
-
-.controle{
-    width: 9%;
-    height: 10%;
-    margin-left: -33rem;
-    animation-name: updown;
-    animation-name: updown;
-    animation-duration: 2s; /* Duração da animação */
-    animation-iteration-count: infinite; /* Repete infinitamente */
-    animation-direction: alternate; 
-}
-
-.NamePokemon{
-  width: 20%;
-  margin-left: 51rem;
-  margin-top: -3rem;
+:root {
+  --random_bg: url(https://source.unsplash.com/random)
 }
 
 
-@keyframes updown {
-    0% {
-      transform: translateY(0); /* Mantém o elemento na posição original */
-    }
-    50% {
-      transform: translateY(-50px); /* Move o elemento para cima */
-    }
-    100% {
-      transform: translateY(0); /* Retorna o elemento para a posição original */
-    }
+
+/* CSS to create the blob  */
+
+.blob-wobble {
+  width: 430px;
+  height: 430px;
+  background-image: url(https://avatars.githubusercontent.com/u/101608517?v=4);
+  background-position: center center;
+  background-size: cover;
+  border-radius: 41% 59% 31% 69% / 51% 72% 28% 49%  ;
+  animation: wobble 10s ease-in-out alternate infinite;
+  box-shadow: 2px 14px 28px -10px rgba(0,0,0,0.7);
+  z-index: -1;
+  margin-left: 60rem;
+  margin-top: -28rem;
+}
+
+/* CSS to animate the blob */
+
+@keyframes wobble {
+  
+    25% {
+    border-radius: 41% 59% 74% 26% / 51% 31% 69% 49% ;
+    transform: scale(0.9) rotate(-5deg);
   }
+  
+  50% {
+    border-radius: 23% 77% 73% 27% / 14% 21% 79% 86%  ;
+    transform: scale(0.8) rotate(6deg);
+  }
+  
+  100% {
+    border-radius: 75% 25% 75% 25% / 45% 26% 74% 55%  ;
+    transform: scale(0.95) rotate(-2deg);
+  }
+}
