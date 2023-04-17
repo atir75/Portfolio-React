@@ -7,27 +7,27 @@ export function Skills() {
 
             <h1 className="TextSkills">Skills</h1>
             <h2 className="Backend">Back-end</h2>
-            <div className="ProgressBars">
-                <div className="progress-bar progressAnimationStrike one" >
-                    <h2 className="first">C#</h2>
-                </div> 
-                <div className="progress-bar progressAnimationStrike two">
-                    <h2 className="second">NodeJs</h2>
-                </div> 
-                <div className="progress-bar progressAnimationStrike three">
-                    <h2 className="threee">Git</h2>
-                </div> 
-                <div className="progress-bar progressAnimationStrike four">
-                    <h2 className="fourP">Python</h2>
-                </div> 
-                <div className="progress-bar progressAnimationStrike five">
-                    <h2 className="fiveJ">Java</h2>
-                </div> 
+            <div className="teste">  .</div>
+
+
+            <div className="wrap-circles">
+                <div className="circle per-0">
+                    <div className="inner">teste</div>
+                </div>
+                {/* <div className="circle per-25">
+                    <div className="inner">25%</div>
+                </div>
+                <div className="circle per-50">
+                    <div className="inner">50%</div>
+                </div>
+                <div className="circle per-75">
+                    <div className="inner">75%</div>
+                </div>
+                <div className="circle per-100">
+                    <div className="inner">100%</div>
+                </div> */}
             </div>
-            <h2 className="Frontend"> Front-end </h2>
-            <div className="ProgressBarsBack">
-                
-            </div>
+
         </>
     )
 }
