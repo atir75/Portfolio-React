@@ -55,11 +55,11 @@
     height: 120px;
     margin: 0.5rem;
     border-radius: 50%;
-    background: #FFCDB2;
+    background: #F48FB1;
     overflow: hidden;
   }
   .circle.per-0 {
-    background-image: conic-gradient(#B5838D 70%, #FFCDB2 0);
+    background-image: conic-gradient(#F48FB1 70%, #FFCDB2 0);
   }
   .circle.per-25 {
     background-image: conic-gradient(#B5838D 25%, #FFCDB2 0);
