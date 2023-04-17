@@ -12,7 +12,7 @@ export function Skills() {
 
             <div className="wrap-circles">
                 <div className="circle per-0">
-                    <div className="inner">teste</div>
+                    <div className="inner">CSharp</div>
                 </div>
                 {/* <div className="circle per-25">
                     <div className="inner">25%</div>
