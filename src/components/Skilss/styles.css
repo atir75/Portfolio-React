@@ -69,12 +69,14 @@
     margin-top: -8rem;
   }
   .circle.per-50 {
-    background-image: conic-gradient(#F48FB1 50%, #616161 0);
+    background-image: conic-gradient(#F48FB1 40%, #616161 0);
     margin-left: 3rem;
     margin-top: 3rem;
   }
   .circle.per-75 {
-    background-image: conic-gradient(#B5838D 75%, #FFCDB2 0);
+    background-image: conic-gradient(#F48FB1 50%, #616161 0);
+    margin-left: 19rem;
+    margin-top: -8rem;
   }
   .circle.per-100 {
     background-image: conic-gradient(#B5838D 100%, #FFCDB2 0);

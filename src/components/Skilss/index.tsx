@@ -18,14 +18,11 @@ export function Skills() {
                     <div className="test">NodeJS</div>
                 </div>
                 <div className="circle per-50">
+                    <div className="inner">Java</div>
+                </div>
+                <div className="circle per-75">
                     <div className="inner">Git</div>
                 </div>
-                {/* <div className="circle per-75">
-                    <div className="inner">75%</div>
-                </div>
-                <div className="circle per-100">
-                    <div className="inner">100%</div>
-                </div>  */}
             </div>
 
         </>
