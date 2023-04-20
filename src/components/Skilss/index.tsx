@@ -17,10 +17,10 @@ export function Skills() {
                 <div className="circle per-25">
                     <div className="test">NodeJS</div>
                 </div>
-                {/* <div className="circle per-50">
-                    <div className="inner">50%</div>
+                <div className="circle per-50">
+                    <div className="inner">Git</div>
                 </div>
-                <div className="circle per-75">
+                {/* <div className="circle per-75">
                     <div className="inner">75%</div>
                 </div>
                 <div className="circle per-100">
