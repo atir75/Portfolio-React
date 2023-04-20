@@ -14,10 +14,10 @@ export function Skills() {
                 <div className="circle per-0">
                     <div className="inner">CSharp</div>
                 </div>
-                {/* <div className="circle per-25">
-                    <div className="inner">25%</div>
+                <div className="circle per-25">
+                    <div className="test">NodeJS</div>
                 </div>
-                <div className="circle per-50">
+                {/* <div className="circle per-50">
                     <div className="inner">50%</div>
                 </div>
                 <div className="circle per-75">
@@ -25,7 +25,7 @@ export function Skills() {
                 </div>
                 <div className="circle per-100">
                     <div className="inner">100%</div>
-                </div> */}
+                </div>  */}
             </div>
 
         </>

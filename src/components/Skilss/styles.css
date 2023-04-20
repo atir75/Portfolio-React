@@ -46,7 +46,6 @@
 .wrap-circles {
     min-height: 10vh;
     padding: 1rem 48rem;
-    margin-top: -19rem;
   }
   
   .circle {
@@ -57,9 +56,10 @@
     border-radius: 50%;
     background: #F48FB1;
     overflow: hidden;
+    
   }
   .circle.per-0 {
-    background-image: conic-gradient(#F48FB1 70%, #FFCDB2 0);
+    background-image: conic-gradient(#F48FB1 70%, #616161 0);
   }
   .circle.per-25 {
     background-image: conic-gradient(#B5838D 25%, #FFCDB2 0);
@@ -74,6 +74,24 @@
     background-image: conic-gradient(#B5838D 100%, #FFCDB2 0);
   }
   .circle .inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    background: #000;
+    border-radius: 50%;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 1.3em;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .circle .test {
     display: flex;
     justify-content: center;
     align-items: center;
