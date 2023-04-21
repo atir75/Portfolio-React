@@ -7,7 +7,7 @@ import { Text } from './components/Text'
 import { BtnContactMe } from './components/Button ContactMe'
 import { AboutMe } from './components/AboutMe'
 import { Items } from './components/ItemsAboutMe'
-import { Skills } from './components/Skilss'
+import { Skills } from './components/Skills'
 
 export function App() {
 
