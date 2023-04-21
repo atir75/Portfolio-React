@@ -30,6 +30,18 @@
     margin-left: 59rem;
 }
 
+.Frontend{
+  font-family: 'Anonymous Pro', monospace;
+    width: 12%;
+    height: 10%;
+    font-size: 25px;
+    margin-left: 22rem;
+    margin-bottom: -1.9rem;
+}
+
+
+
+
 .back1{
     font-family: 'Anonymous Pro', monospace;
     height: 15px;
@@ -43,7 +55,7 @@
 
 
 
-.wrap-circles {
+.wrap-circlesback {
     min-height: 10vh;
     padding: 1rem 48rem;
   }
@@ -115,4 +127,43 @@
     font-size: 1.3em;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.75);
+  }
+
+
+
+  .wrap-circlesfront {
+    min-height: 10vh;
+    padding: 1rem 30rem;
+  }
+  
+  .circle {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    margin: 0.5rem;
+    border-radius: 50%;
+    background: #F48FB1;
+    overflow: hidden;
+    
+  }
+
+  .circle.per-0f {
+    background-image: conic-gradient(#F48FB1 60%, #616161 0);
+    margin-left: -16rem;
+    margin-top: -22.9rem;
+  }
+  .circle.per-25f {
+    background-image: conic-gradient(#F48FB1 28%, #616161 0);
+    margin-left: 19rem;
+    margin-top: -8rem;
+  }
+  .circle.per-50f {
+    background-image: conic-gradient(#F48FB1 40%, #616161 0);
+    margin-left: 3rem;
+    margin-top: 3rem;
+  }
+  .circle.per-75f {
+    background-image: conic-gradient(#F48FB1 50%, #616161 0);
+    margin-left: 19rem;
+    margin-top: -8rem;
   }
