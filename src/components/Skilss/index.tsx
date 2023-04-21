@@ -36,10 +36,10 @@ export function Skills() {
                     <div className="test">JavaScript</div>
                 </div>
                 <div className="circle per-50f">
-                    <div className="inner">Java</div>
+                    <div className="inner">CSS</div>
                 </div>
                 <div className="circle per-75f">
-                    <div className="inner">Git</div>
+                    <div className="inner">Saas</div>
                 </div>
             </div>
 
