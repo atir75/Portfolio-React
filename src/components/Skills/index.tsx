@@ -1,4 +1,4 @@
-import "../Skilss/styles.css"
+import "../Skills/styles.css"
 
 export function Skills() {
     return (
