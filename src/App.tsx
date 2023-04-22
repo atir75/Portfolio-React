@@ -8,6 +8,7 @@ import { BtnContactMe } from './components/Button ContactMe'
 import { AboutMe } from './components/AboutMe'
 import { Items } from './components/ItemsAboutMe'
 import { Skills } from './components/Skills'
+import { BarsExperience } from './components/BarsExperience'
 
 export function App() {
 
@@ -21,6 +22,7 @@ export function App() {
       <AboutMe/>
       <Items/>
       <Skills/>
+      <BarsExperience />
     </>
   )
 }

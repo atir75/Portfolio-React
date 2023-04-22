@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+
+.education{
+    font-family: 'Anonymous Pro', monospace;
+    width: 12%;
+    height: 10%;
+    font-size: 25px;
+    margin-left: 62rem;
+    margin-top: 10rem;
+    margin-bottom: 7rem;
+}
+
+.bareducation{
+    background-color: #757575;
+    height: 300px;
+    width: 2px;
+    margin-left: 65.9rem;
+    margin-top: -5rem;
+}
+
+.pointone{
+    background-color: #757575;
+    height: 10px;
+    width: 10px;
+    margin-left: 65.65rem;
+    margin-top: -13rem;
+    border-radius: 5px;
+}
+
+.texteducationOne{
+    font-family: 'Anonymous Pro', monospace;
+    width: 19%;
+    height: 10%;
+    font-size: 20px;
+    color: black;
+    margin-left: 50rem;
+    margin-top: -1.3rem;
+}
+
+.textedcucationOneC{
+    font-family: 'Anonymous Pro', monospace;
+    width: 12%;
+    height: 10%;
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+    margin-left: 50rem;
+}
+
+.pointtwo{
+    background-color: #757575;
+    height: 10px;
+    width: 10px;
+    margin-left: 65.65rem;
+    margin-top: 7rem;
+    border-radius: 5px;
+}
+
+.texteducationTwo{
+    font-family: 'Anonymous Pro', monospace;
+    width: 14%;
+    height: 10%;
+    font-size: 20px;
+    color: black;
+    margin-left: 70rem;
+    margin-top: -1.3rem;
+}
+
+.textedcucationTwoC{
+    font-family: 'Anonymous Pro', monospace;
+    width: 12%;
+    height: 10%;
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+    margin-left: 70rem;
+}
+
+.edducation{
+    margin-left: -21.6rem;
+    margin-top: -2rem;
+}
+
+.experience{
+    font-family: 'Anonymous Pro', monospace;
+    width: 12%;
+    height: 10%;
+    font-size: 25px;
+    margin-left: 40rem;
+    margin-top: 4rem;
+    margin-bottom: 7rem;
+}
+
+.barexperience{
+    background-color: #757575;
+    height: 300px;
+    width: 2px;
+    margin-left: 44.3rem;
+    margin-top: -5rem;
+}
+
+.pointTwo{
+    background-color: #757575;
+    height: 10px;
+    width: 10px;
+    margin-left: 705px;
+    margin-top: -14rem;
+    border-radius: 5px;
+}
+
+
+.textexperiencenOne{
+    font-family: 'Anonymous Pro', monospace;
+    width: 19%;
+    height: 10%;
+    font-size: 20px;
+    color: black;
+    margin-left: 28.5rem;
+    margin-top: -1.3rem;
+}
+
+.textexperienceOneC{
+    font-family: 'Anonymous Pro', monospace;
+    width: 15%;
+    height: 10%;
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+    margin-left: 28.5rem;
+}
+
+.pointThree{
+    background-color: #757575;
+    height: 10px;
+    width: 10px;
+    margin-left: 705px;
+    margin-top: 8rem;
+    border-radius: 5px;
+}
+
+.textexperiencenTwo{
+    font-family: 'Anonymous Pro', monospace;
+    width: 19%;
+    height: 10%;
+    font-size: 20px;
+    color: black;
+    margin-left: 48rem;
+    margin-top: -1.3rem;
+}
+
+.textexperienceTwoC{
+    font-family: 'Anonymous Pro', monospace;
+    width: 26%;
+    height: 10%;
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+    margin-left: 48rem;
+}
