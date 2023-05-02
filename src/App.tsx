@@ -9,6 +9,7 @@ import { AboutMe } from './components/AboutMe'
 import { Items } from './components/ItemsAboutMe'
 import { Skills } from './components/Skills'
 import { BarsExperience } from './components/BarsExperience'
+import { Contacts } from './components/Contact'
 
 export function App() {
 
@@ -23,6 +24,7 @@ export function App() {
       <Items/>
       <Skills/>
       <BarsExperience />
+      <Contacts />
     </>
   )
 }
