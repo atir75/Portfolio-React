@@ -1,7 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
 
-.Box{
-    background-color: black;
-    height: 30px;
-    width: 30px;
+
+.Project{
+    margin-top: 27rem;
+    height: 120px;
+    width: 300px;
+    font-size: 30px;
+    margin-left: 16rem;
+    border: 2px solid #000;
+}
+.Create{
+    margin-top: -2rem;
+    height: 50px;
+    width: 400px;
+    font-size: 20px;
+    margin-left: 16rem;
+    
+}
+.pTell{
+    text-indent: 3px;
+}
+
+.Send
+{
+    margin-top: 1rem;
+}
+
+.mail{
+    border: 2px solid #000;
+    margin-top: 20rem;
+    height: 400px;
+    width: 450px;
+    margin-right: 16rem;
+    margin-bottom: 3rem;
+    background-color: rgb(165, 157, 157);
+    border-radius: 20px 20px 20px 20px; 
+}
+
+
+.positionContact{
+    display: flex;
+    justify-content: space-between;
 }

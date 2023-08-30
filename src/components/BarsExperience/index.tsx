@@ -22,7 +22,7 @@ export function BarsExperience() {
             <div className="pointTwo"></div>
             <div className="textexperiencenOne">Inter Developer</div>
             <div className="textexperienceOneC">GBM Tech & Controll
-Nov 2022 - Present</div>
+Nov 2022 - Aug 2023</div>
             <div className="pointThree"></div>
             <div className="textexperiencenTwo">Inter Analyst - Support</div>
             <div className="textexperienceTwoC">Grupo Rodrimar - Comércio Exterior 
